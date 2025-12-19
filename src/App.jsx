@@ -7,7 +7,7 @@ const STORAGE_KEY = 'notes_app_tasks'
 const App = () => {
   const [tasks, setTasks] = useState(() => {
     const saved = localStorage.getItem(STORAGE_KEY)
-    return saved ? JSON.parse(saved) : []
+    return saved ? JSON.parse(saved) ; []
   })
 
   // Persist to localStorage
