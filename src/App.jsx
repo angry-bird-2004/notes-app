@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react'
 import { Reorder } from 'framer-motion'
-import Form from './compnent/form'
-import Card from './compnent/card'
+import Form from './compnent/Form'
+import Card from './compnent/Card'
 const STORAGE_KEY = 'notes_app_tasks'
 
 const App = () => {
